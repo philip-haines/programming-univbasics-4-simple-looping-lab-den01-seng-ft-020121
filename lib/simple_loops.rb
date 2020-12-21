@@ -32,9 +32,8 @@ def return_string_array(array)
   new_string = ""
   count = 0
   
-  while count < array.length do
-    new_string + array[count]
-    
+  while count < array.length
+    array.each { |ele| new_string + ele }
     count += 1
   end
   
