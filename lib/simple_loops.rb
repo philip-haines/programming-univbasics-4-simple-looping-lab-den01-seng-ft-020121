@@ -28,3 +28,9 @@ def output_array(array)
   end
 end
 
+def return_string_array(array)
+  new_string = ""
+  count = 0
+  
+  while count < array.length do
+end
