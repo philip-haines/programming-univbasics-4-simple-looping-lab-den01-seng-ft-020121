@@ -33,7 +33,7 @@ def return_string_array(array)
   count = 0
   
   while count < array.length do
-    new_str + array[count]
+    new_string + array[count]
     
     count += 1
   end
